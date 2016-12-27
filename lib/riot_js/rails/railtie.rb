@@ -13,7 +13,7 @@ module RiotJs
 
         if defined?(::Haml)
           require 'tilt/haml'
-          app.assets.register_engine '.haml', ::Tilt::HamlTemplate
+          config.assets.register_engine '.haml', ::Tilt::HamlTemplate
         end
       end
 
